@@ -38,7 +38,6 @@ class BeneficiaryListViewController: UIViewController {
         tableView = UITableView(frame: view.bounds, style: .plain)
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         view.addSubview(tableView)
         
         tableView.register(BeneficiaryTableViewCell.self, forCellReuseIdentifier: "cell") // setting cell type for tableview
