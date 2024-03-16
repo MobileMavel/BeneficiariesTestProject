@@ -69,7 +69,7 @@ class BeneficiaryDetailViewController: UIViewController {
         iconImageView.widthAnchor.constraint(equalToConstant: 80).isActive = true
         iconImageView.heightAnchor.constraint(equalToConstant: 80).isActive = true
         
-        let nameLabel = createLabel(with: "\(beneficiary.firstName) \(beneficiary.lastName)", textStyle: .title3, bold: true, color: .themeColor ?? .blue)
+        let nameLabel = createLabel(with: "\(beneficiary.firstName) \(beneficiary.middleName ?? "") \(beneficiary.lastName)", textStyle: .title3, bold: true, color: .themeColor ?? .blue)
         let designationLabel = createLabel(with: "\(beneficiary.designationCode == "P" ? "Primary" : "Contingent")", textStyle: .body, bold: false, color: .gray)
         
         let headerRightStack = UIStackView(arrangedSubviews: [nameLabel, designationLabel])

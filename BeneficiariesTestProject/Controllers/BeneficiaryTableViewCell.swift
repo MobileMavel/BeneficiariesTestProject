@@ -8,21 +8,21 @@
 import UIKit
 
 class BeneficiaryTableViewCell: UITableViewCell {
-    let nameLabel: UILabel = {
+    lazy var nameLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.preferredFont(forTextStyle: .title2)
         label.textColor = .themeColor
         return label
     }()
     
-    let typeLabel: UILabel = {
+    lazy var  typeLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.preferredFont(forTextStyle: .subheadline)
         label.textColor = .darkGray
         return label
     }()
     
-    let designationLabel: UILabel = {
+    lazy var  designationLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.preferredFont(forTextStyle: .subheadline)
         label.textColor = .darkGray
@@ -78,7 +78,7 @@ class BeneficiaryTableViewCell: UITableViewCell {
     }
     
     func configure(with beneficiary: Beneficiary) { //configure cell values
-        nameLabel.text = "\(beneficiary.firstName) \(beneficiary.lastName)"
+        nameLabel.text = "\(beneficiary.firstName) \(beneficiary.middleName ?? "") \(beneficiary.lastName)"
         typeLabel.text = "Type: \(beneficiary.beneType)"
         designationLabel.text = "Designation: \(beneficiary.designationCode == "P" ? "Primary" : "Contingent")"
     }
