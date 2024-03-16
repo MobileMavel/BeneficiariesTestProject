@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1DB3FCC9-A857-48A0-A391-132F732069F7"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D4ACC7F-67CD-4676-9C65-10EAAF8B48D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeneficiariesTestProject/View Controllers/BeneficiaryListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "init?(coder:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1D4ACC7F-67CD-4676-9C65-10EAAF8B48D7 - f1247b1c3f9467c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeneficiariesTestProject.BeneficiaryDetailViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BeneficiariesTestProject.BeneficiaryDetailViewController&gt;"
+                  moduleName = "BeneficiariesTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Documents/App%20Devlopment/Products/BeneficiariesTestProject/BeneficiariesTestProject/View%20Controllers/BeneficiaryListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  uuid = "1D4ACC7F-67CD-4676-9C65-10EAAF8B48D7 - b4693d02ca09f963"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeneficiariesTestProject.BeneficiaryDetailViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;BeneficiariesTestProject.BeneficiaryDetailViewController&gt;"
+                  moduleName = "BeneficiariesTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Documents/App%20Devlopment/Products/BeneficiariesTestProject/BeneficiariesTestProject/View%20Controllers/BeneficiaryListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB566A20-57E5-4D6E-9B47-9BA636313874"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BeneficiariesTestProject/View Controllers/BeneficiaryListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CB566A20-57E5-4D6E-9B47-9BA636313874 - bbaf6b1cdfadcf59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeneficiariesTestProject.BeneficiaryListViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "BeneficiariesTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Documents/App%20Devlopment/Products/BeneficiariesTestProject/BeneficiariesTestProject/View%20Controllers/BeneficiaryListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "1872">
+               </Location>
+               <Location
+                  uuid = "CB566A20-57E5-4D6E-9B47-9BA636313874 - bbaf6b1cdfadcf59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BeneficiariesTestProject.BeneficiaryListViewController.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "BeneficiariesTestProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dev/Documents/App%20Devlopment/Products/BeneficiariesTestProject/BeneficiariesTestProject/View%20Controllers/BeneficiaryListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "1937">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
